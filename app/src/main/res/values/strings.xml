@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CompartMusic</string>
+    <string name="login">Login</string>
+    <string name="senha">Senha</string>
+    <string name="rights">In development - Alpha fase</string>
+    <string name="title_activity_lista_musica">Espaço Usuario</string>
+    <string name="playmusicas">Play Musicas</string>
+    <string name="contatos">Contatos</string>
+    <string name="sms">Mensagens</string>
+    <string name="compart">Compartilhamento</string>
+    <string name="titlecomp1">Compartilhamento na Nuvem</string>
+    <string name="titlecomp2">Compartilhamento com o Usuário</string>
+    <string name="desccomp1">É seu armazenamento de músicas que permite que você dê o upload ou download
+        de qualquer lugar (desde que esteja conectado a internet) não havendo necessidade de
+        manter qualquer musica no seu celular ou no cartão de memória. </string>
+    <string name="desccomp2">É um compartilhamento dos seus arquivos de música para outros usuários,
+    compartilhando com quem você quiser, livre de qualquer tipo de burocracia ou cobrança. Esteje conectado
+    e compartilhe!</string>
+</resources>

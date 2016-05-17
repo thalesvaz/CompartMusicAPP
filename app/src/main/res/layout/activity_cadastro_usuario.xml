@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.edu.iff.pooa20152.compartmusic.cadastroUsuario"
+    android:background="@drawable/bgbinary1"
+    android:orientation="vertical">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/bgcinza"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:background="@drawable/iconuser"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:text="Cadastro usuário"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="@color/azulbb"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tviduser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Id:"
+                android:textSize="21dp"/>
+
+            <EditText
+                android:id="@+id/etiduser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:hint="código"/>
+
+            <TextView
+                android:id="@+id/tvusername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Username:"
+                android:textSize="21dp"/>
+
+            <EditText
+                android:id="@+id/etusername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:hint="Nome usuario"/>
+
+            <TextView
+                android:id="@+id/tvsenha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Senha:"
+                android:textSize="21dp"/>
+
+            <EditText
+                android:id="@+id/etsenha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:textStyle="italic"
+                android:hint="Password"/>
+
+            <TextView
+                android:id="@+id/tvemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="email:"
+                android:textSize="21dp"/>
+
+            <EditText
+                android:id="@+id/etemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:hint="exemplo@exemplomail.com"/>
+
+            <TextView
+                android:id="@+id/tvendereco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="endereco:"
+                android:textSize="21dp"/>
+
+            <EditText
+                android:id="@+id/etendereco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:hint="rua exemplo rua, numero 1"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btsalvaruser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="58dp"
+                    android:text="Salvar"
+                    android:gravity="center"/>
+
+                <Button
+                    android:id="@+id/btcancelar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Cancelar"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="br.edu.iff.pooa20152.compartmusic.listaMusica"
+    android:background="@drawable/bgbinary1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/bgcinza">
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="@drawable/iconplay"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="50dp"
+                android:background="@color/bgcinza"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/azulbb"
+                android:text="Musicas"/>
+        </LinearLayout>
+
+        <ListView android:id="@+id/android:list"
+            android:layout_width="match_parent"
+            android:layout_height="436dp"></ListView>
+        <Button
+            android:id="@+id/btparar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parar"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+
+</LinearLayout>

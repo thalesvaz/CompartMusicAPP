@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.edu.iff.pooa20152.compartmusic.mensagens">
+
+    <ImageView
+        android:id="@+id/profileicon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="8dp"
+        android:src="@drawable/iconuser"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/profileicon"
+        android:text="Nome Contato"
+        android:layout_marginTop="11dp"
+        android:textSize="40dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/profileicon"
+        android:layout_above="@+id/sendicon"
+        android:background="@color/bgcinza"
+        />
+
+    <EditText
+        android:id="@+id/etsendtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/sendicon"
+        android:textColor="@color/azulbb"
+        android:textSize="20dp"
+        android:hint="Entre com sua mensagem"
+        android:imeOptions="flagNoExtractUi"
+        android:layout_marginLeft="8dp"
+        android:focusable="true"
+        android:maxLength="140"/>
+
+    <ImageView
+        android:id="@+id/sendicon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/iconsend"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
